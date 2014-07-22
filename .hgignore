@@ -1,0 +1,4 @@
+glob:*.pyc
+glob:.*.swp
+glob:.DS_Store
+glob:.wh.*
