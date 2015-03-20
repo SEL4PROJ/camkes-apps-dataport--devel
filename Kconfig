@@ -10,7 +10,6 @@
 
 config APP_DATAPORT
     bool "Dataport CAmkES application"
-    default y
-    select APP_CAMKES_EXECUTIVE
+    default n
     help
         A CAmkES application demonstrating the use of dataports
