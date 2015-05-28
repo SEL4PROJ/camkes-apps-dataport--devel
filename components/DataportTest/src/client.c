@@ -8,11 +8,10 @@
  * @TAG(NICTA_BSD)
  */
 
+#include <camkes.h>
 #include <stdio.h>
 #include <string.h>
 #include <sel4/sel4.h>
-
-#include <DataportTest.h>
 
 int run(void) {
     char *shello = "hello world";
